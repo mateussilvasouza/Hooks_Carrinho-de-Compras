@@ -45,8 +45,6 @@ const Home = (): JSX.Element => {
     loadProducts();
   }, []);
 
-console.log(products)
-
   function handleAddProduct(id: number) {
     addProduct(id)
   }
